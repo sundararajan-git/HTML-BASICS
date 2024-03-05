@@ -1,0 +1,596 @@
+<!--Defines the document type -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- meta tag - tag defines metadata about an HTML document. Metadata is data (information) about data. -->        
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title tag -->
+    <title>Pure Html</title>
+   
+    <!-- link tag -  	Defines the relationship between a document and an external resource (most used to link to style sheets) -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="alternate" href="atom.xml" type="application/atom+xml" title="Atom">
+
+    <!-- style tag -  -->
+  <style>
+    h1 {color:red;}
+    p {color:blue;}
+  </style><br><br>
+
+</head>
+
+<body>
+    <!-- headings 1 to 6 -->
+    <div class="heading">
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+    </div>
+
+    <!-- anchar tags - Defines a hyperlink-->
+    <div class="ancharTag">
+        <a href="https://www.google.com/">Google</a><br>
+        <a href="https://twitter.com/">Twitter</a><br>
+        <a href="https://www.instagram.com/">Instagram</a><br>
+        <a href="https://www.facebook.com/">FaceBook</a>
+    </div><br><br>
+
+    <!-- abbreviation -  	Defines an abbreviation or an acronym-->
+    <abbr title="World Wide Web">www</abbr><br>
+
+    <!-- acronym - Not supported HTML 5 and support HTML 4 --> 
+    <acronym title="Docotor">Dr</acronym><br><br>
+
+    <!-- address - Defines contact information for the author/owner of a document -->
+    <address>No : 6 , <br>
+        Saranga bani theru ,<br>
+        Dubai Main road,<br>
+        california - 2342,<br>
+        Rusia
+    </address><br><br>
+
+    <!-- map tag -  	Defines an image map -->
+    <!-- area tag -  	Defines an area inside an image map-->
+    <div class="areaTag">
+        <img src="https://www.w3schools.com/tags/workplace.jpg" alt="Table" usemap="#workplace">
+        <map name="workplace">
+            <area shape="rect" coords="37,45,269,345" href="https://www.w3schools.com/w3images/mac.jpg" alt="macbook">
+            <area shape="circle" coords="337,301,45" href="https://www.w3schools.com/w3images/coffeehouse2.jpg" alt="cooffe">
+        </map>
+    </div><br><br>
+
+    <!-- article Tag - Defines an article-->
+    <div class="artricleTag">
+        <article>
+            <h2>Goole chrome</h2>
+            <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+        </article>
+    </div><br><br>
+
+    <!-- aside Tag - Defines content aside from the page content-->
+    <div class="asideTag">
+        <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+        <aside>
+        <h4>Epcot Center</h4>
+        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+        </aside> 
+    </div><br><br>
+
+    <!-- audio tag - Defines embedded sound content-->
+    <div class="audioTag">
+        <audio controls>
+            <source src="https://jiosaavn.xyz/tamil/Ponniyin%20Selvan%20Part%202/Aga%20Naga.mp3" type="audio/mp3">
+            your browser does not support the audio element
+        </audio>
+    </div><br><br>
+
+    <!-- bold tag - Defines bold text-->
+    <b>Bold Tag</b><br><br>
+
+    <!-- base tag  - Specifies the base URL/target for all relative URLs in a document-->
+    <div class="baseTag">
+      <base href="https://www.w3schools.com/" target="_parent">
+      <li><a href="html/default.asp">HTML</a> by w3schools</li>
+      <li><a href="css/default.asp">CSS</a> by w3schools</li>
+      <li><a href="js/default.asp">Javascript</a> by w3schools</li>
+    </div><br><br>
+
+    <!-- basefont tag -  Not Supported in HTML5. -->
+    <basefont><br><br>
+
+    <!-- bdo tag - Overrides the current text direction-->
+    <bdo dir="ltr">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, culpa!</bdo><br>
+    <bdo dir="rtl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, culpa!</bdo><br><br>
+
+    <!-- bdi tag -  	Isolates a part of text that might be formatted in a different direction from other text outside it-->
+    <ul>
+        <li>User <bdi>hrefs</bdi> : 60 points</li>
+        <li>User <bdi>jdoe</bdi> : 80 points</li>
+    </ul><br><br>
+
+    <!-- big tag - Not Supported in HTML5.  -->
+    <big>home</big><br><br>
+
+    <!-- bgsound -  background music and Deprecated-->
+    <bgsound></bgsound><br><br>
+
+    <!-- blink tag - Deprecated -->
+    <blink>great</blink><br><br>
+
+    <!-- break tag - Defines a single line break -->
+    <!-- blockquote tag - Defines a section that is quoted from another source  -->
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</blockquote><br><br> 
+
+    <!-- button tag - Defines a clickable button -->
+    <button>Submit</button><br><br>
+
+    <!-- canvas tag -  Used to draw graphics, on the fly, via scripting (usually JavaScript) -->
+    <canvas id="mycanvas">Your browser does not support the canvas tag.</canvas><br>
+
+    <!-- caption tag -   Defines a table caption -->
+    <table border="1">
+        <caption>monthly  savings</caption>
+        <tr>
+            <th>Month</th>
+            <th>Saving</th>
+        </tr>
+        <tr>
+            <td>April</td>
+            <td>$10</td>
+        </tr>
+    </table><br><br>
+
+    <!-- center tag - Not Supported in HTML5. -->
+    <center></center><br>
+
+    <!-- cite tag - element usually renders in italic -->
+    <p>The Author is <cite>Mark</cite></p><br><br>
+
+    <!-- code tag -  define a piece of computer code and like computer code font  -->
+    <p>The HTML <code>button</code> tag defines a clickable button.</p><br><br>
+
+    <!-- colgroup tag - Specifies a group of one or more columns in a table for formatting -->
+    <!-- col tag - 	Specifies column properties for each column within a <colgroup> element   -->
+    <table border="1">
+        <colgroup>
+            <col span="2" style="background-color: crimson;">
+            <col style="background-color: aliceblue;">
+        </colgroup>
+        <tr>
+            <th>Month</th>
+            <th>Saving</th>
+            <th>Spent</th>
+        </tr>
+        <tr>
+            <td>April</td>
+            <td>$10</td>
+            <td>$2000</td>
+        </tr>
+    </table><br><br>
+
+    <!-- comment tag - For Readabilty -->
+    <!-- this is comment tag -->
+
+    <!-- data tag - Adds a machine-readable translation of a given content -->
+    <ul>
+        <li><data value = "111">Cherry Tomato</data></li>
+        <li><data value = "112">Beef Tomato</data></li>
+        <li><data value = "113">Snack Tomato</data></li>
+    </ul>
+
+    <!-- datalist tag -  	Specifies a list of pre-defined options for input controls -->
+    <div class="datalist">
+        <input type="text" id = "browser" list="browsers">
+        <button>Submit</button>
+        <datalist id="browsers">
+            <option value="apple"></option>
+            <option value="anakonda"></option>
+            <option value="key"></option>
+            <option value="pinapple"></option>
+            <option value="eye"></option>
+        </datalist><br><br>
+    </div>
+
+    <!-- dl tag -  Defines a description list -->
+    <!-- dt tag -  	Defines a term in a description list-->
+    <!-- dd tag -  	Defines a description  in a description list-->
+    <dl>
+        <dt>Coffe</dt>
+        <dd>black hot drink</dd>
+        <dt>milk</dt>
+        <dd>white cold drink</dd>
+    </dl><br><br>
+
+    <!-- del tag - Defines text that has been deleted from a document-->
+    <p>I like <del>red</del> blue</p><br><br>
+
+    <!-- deatails tag -  	Defines additional details that the user can view or hide -->
+    <details>
+        <summary>show more</summary>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo sint mollitia ipsa eaque autem dignissimos enim voluptatem pariatur repellat asperiores numquam ut rerum, nobis tempora aspernatur esse corporis inventore, illo quis? Distinctio accusantium eaque consequatur alias. Iusto repellendus inventore tempore possimus eaque distinctio, molestias nam nobis nihil eum nulla suscipit.</p>
+    </details><br><br>
+
+    <!-- definitaion tag - tag stands for the "definition element -->
+    <p><dfn>HTML</dfn> is the standard markup language for creating web pages.</p><br><br>
+
+    <!-- dialog tag -  Defines a dialog box or window -->
+    <dialog open >This is dialog box</dialog><br><br>
+
+    <!-- dir tag -Not Supported in HTML5. -->
+    <dir></dir><br><br>
+
+    <!-- em tag - tag is used to define emphasized text -->
+    <p>you <em>have</em> to hury up</p><br><br>
+
+    <!-- embed tag -  Defines a container for an external application -->
+    <div class="embed">
+        <embed src="https://www.w3schools.com/tags/pic_trulli.jpg" type="image/jpg">
+    </div><br><br>
+
+    <!-- fieldset tag - Groups related elements in a form -->
+    <form action="/action_page.php">
+        <fieldset>
+         <legend>Personalia:</legend>
+         <label for="fname">First name:</label>
+         <input type="text" id="fname" name="fname"><br><br>
+         <label for="lname">Last name:</label>
+         <input type="text" id="lname" name="lname"><br><br>
+         <label for="email">Email:</label>
+         <input type="email" id="email" name="email"><br><br>
+         <label for="birthday">Birthday:</label>
+         <input type="date" id="birthday" name="birthday"><br><br>
+         <input type="submit" value="Submit">
+        </fieldset>
+    </form><br><br>
+
+    <!-- figure tag - Specifies self-contained content -->
+    <!-- figcaption tag -  	Defines a caption for a <figure> element -->
+    <div class="figcaption">
+        <figure>
+            <img src="https://www.w3schools.com/tags/pic_trulli.jpg" alt="house" type="image/jpg">
+            <figcaption>Fig.1 - Trulli, Puglia, Italy</figcaption>
+        </figure>
+    </div><br><br>
+
+    <!-- font tag - Not Supported in HTML5. -->
+    <font></font>
+
+    <!-- footer tag -  Defines a footer for a document or section -->
+    <footer>
+        <p>Author: Hege Refsnes</p>
+        <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+    </footer><br><br>
+
+    <!-- form tag - Defines an HTML form for user input-->
+    <form action="http.google.com" method="get">
+        <label for="fname1">First Name :</label>
+        <input type="text" id="fname1" name="fname"><br><br>
+        <label for="lname1">Last Name:</label>
+        <input type="text" id="lname1" name="lname"><br><br>
+        <input type="submit" value = "submit">
+    </form><br><br>
+
+    <!-- frame tag - Not Supported in HTML5. -->
+    <frame><br><br>
+
+    <!-- frameset tag - Not Supported in HTML5. -->
+    <frameset></frameset><br><br>
+
+    <!-- header tag - element represents a container for introductory content or a set of navigational links. -->
+    <header>
+        <h1>A heading here</h1>
+        <p>Posted by John Doe</p>
+        <p>Some additional information here</p>
+      </header><br><br>
+
+      <!-- i tag - The content inside is typically displayed in italic. -->
+      <p><i>Lorem ipsum</i> is the most popular filler text in history.</p><br><br>
+
+      <!-- iframe tag - Defines an inline frame -->
+      <iframe src="https://www.youtube.com/" title="W3Schools Free Online Web Tutorials"></iframe><br><br>
+
+      <!-- img tag - Defines an image -->
+      <img src="https://www.w3schools.com/tags/img_girl.jpg" alt="girl" width="500" height="500"><br><br>
+
+      <!-- input tag - Defines an input control -->
+      <input type="text">
+      <input type="submit"><br><br>
+
+      <!-- inseart tag - Defines a text that has been inserted into a document -->
+      <p>My favorite color is <del>blue</del> <ins>red</ins>!</p><br><br>
+
+      <!-- keyboard tag - Defines keyboard input-->
+      <p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p><br><br>
+
+      <!-- label tag  -  Defines a label for an <input> element -->
+      <form action="/action_page.php">
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+      </form><br><br>
+
+      <!-- legend - Defines a caption for a <fieldset> element-->
+        <form action="/action_page.php">
+            <fieldset>
+              <legend>Personalia:</legend>
+              <label for="fname">First name:</label>
+              <input type="text" id="fname" name="fname"><br><br>
+            </fieldset>
+          </form><br><br>
+        
+        <!-- ul tag - unorder list -->
+        <!--ol tag - order list  -->
+        <!-- li tag -	Defines a list item -->
+        <ol>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ol>
+          
+        <ul>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ul><br><br>
+      
+        <!-- main tag -  Specifies the main content of a document-->
+        <main>
+            <h1>Most Popular Browsers</h1>
+            <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+          
+            <article>
+              <h2>Google Chrome</h2>
+              <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+            </article>
+        </main><br><br>
+        
+        <!-- map tag -  tag is used to define an image map. An image map is an image with clickable areas. -->
+        <img src="https://www.w3schools.com/tags/workplace.jpg" alt="Table" usemap="#workplace">
+        <map name="workplace">
+            <area shape="rect" coords="37,45,269,345" href="https://www.w3schools.com/w3images/mac.jpg" alt="macbook">
+            <area shape="circle" coords="337,301,45" href="https://www.w3schools.com/w3images/coffeehouse2.jpg" alt="cooffe">
+        </map><br><br>
+
+        <!-- mark tag -  Defines marked/highlighted text -->
+        <p>Do not forget to buy <mark>milk</mark> today.</p> 
+
+        <!-- meter tag - tag defines a scalar measurement within a known range, or a fractional value. This is also known as a gauge. -->
+        <label for="disk_c">Disk usage C:</label>
+        <meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+
+       <label for="disk_d">Disk usage D:</label>
+       <meter id="disk_d" value="0.6">60%</meter><br><br>
+
+      <!-- nav tag - defines a set of navigation links.  -->
+      <nav>
+        <a href="/html/">HTML</a> |
+        <a href="/css/">CSS</a> |
+        <a href="/js/">JavaScript</a> |
+        <a href="/python/">Python</a>
+      </nav><br><br> 
+
+      <!-- noframes tag - Not Supported in HTML5. -->
+      <noframes></noframes>
+
+      <!-- noscript tag -  	Defines an alternate content for users that do not support client-side scripts -->
+      <script>
+        document.write("Hello World!")
+    </script>
+    <noscript>Your browser does not support JavaScript!</noscript><br><br>
+    
+    <!-- object tag -  Defines a container for an external application-->
+    <object data="https://www.w3schools.com/tags/pic_trulli.jpg" type="image/jpg"></object><br><br>
+
+    <!-- option group -  Defines a group of related options in a drop-down list -->
+    <form action="">
+      <select name="test" id="test">
+        <optgroup  label="skills">
+            <option value="html">Html</option>
+            <option value="css">css</option>
+            <option value="Javascript">Javascript</option>
+        </optgroup>
+        <optgroup label="language">
+            <option value="tamil">tamil</option>
+            <option value="english">English</option>
+        </optgroup>
+      </select>
+    </form><br><br>
+
+    <!-- option tag -  down list
+<option>  -->
+    <select id="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="opel">Opel</option>
+        <option value="audi">Audi</option>
+    </select><br><br>
+
+    <!-- output tag -  	Defines the result of a calculation -->
+    <p> 35 + 35 = <output name="result">70</output></p><br><br>
+
+    <!-- p tag - Defines a paragraph -->
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, aut.</p><br><br>
+
+    <!-- param tag - Defines a parameter for an object -->
+    <object data="horse.wav">
+        <param name="autoplay" value="true">
+    </object><br><br>
+    
+    <!-- pitcture tag - Defines a container for multiple image resources  -->
+    <picture>
+        <source media="(min-width:650px)" srcset="https://www.w3schools.com/tags/img_white_flower.jpg">
+        <source media="(min-width:465px)" srcset="https://www.w3schools.com/tags/img_white_flower.jpg">
+        <img src="https://www.w3schools.com/tags/img_white_flower.jpg" alt="Flowers" style="width:auto;">
+      </picture><br><br>
+
+    <!-- pre tag - Defines preformatted text  -->
+    <pre>
+        Text in a pre element
+        is displayed in a fixed-width
+        font, and it preserves
+        both      spaces and
+        line breaks
+    </pre><br><br> 
+
+    <!-- progress tag - Represents the progress of a task  -->
+    <label for="file">Downloading progress:</label>
+    <progress id="file" value="40" max="100"> 32% </progress><br><br>
+
+    <!-- q tag -  Defines a short quotation-->
+    <q>Build a future where people live in harmony with nature.</q>
+We hope they succeed.</p><br><br>
+
+    <!-- ruby tag -Defines a ruby annotation (for East Asian typography) -->
+    <!-- rt tag - Defines an explanation/pronunciation of characters (for East Asian typography) -->
+    <!-- rp tag - Defines what to show in browsers that do not support ruby annotations-->
+    <ruby>
+        漢 <rp>(</rp><rt>ㄏㄢˋ</rt><rp>)</rp>
+    </ruby><br><br>
+    
+    <!-- s tag -  Defines text that is no longer correct -->
+    <p><s>Only 50 tickets left!</s></p><br><br>
+
+    <!-- samp tag - Defines sample output from a computer program-->
+    <p><samp>File not found.<br>Press F1 to continue</samp></p><br><br>
+
+    <!-- script tag - Defines a client-side script -->
+    <script src="#"></script><br>
+
+    <!-- section tag - Defines a section in a document -->
+    <section>
+        <h2>WWF History</h2>
+        <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+    </section><br><br>
+
+    <!-- select tag - Defines a drop-down list -->  
+   <select name="cars" id="cars">
+     <option value="volvo">Volvo</option>
+     <option value="saab">Saab</option>
+     <option value="mercedes">Mercedes</option>
+     <option value="audi">Audi</option>
+   </select><br><br>
+
+   <!-- small tag - Defines smaller text -->
+   <p><small>This is some smaller text.</small></p>
+
+   <!-- source tag - Defines multiple media resources for media elements (<video> and <audio>)  -->
+   <audio controls>
+    <source src="horse.ogg" type="audio/ogg">
+    <source src="horse.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio> <br><br>
+
+  <!-- span tag - Defines a section in a document -->
+  <p>My mother has <span style="color:blue">blue</span> eyes.</p> 
+
+  <!-- strike tag - Not supported in HTML5. Use <del> or <s> instead.-->
+  <strike>wine</strike><br>
+
+  <!-- strong tag - Defines important text  -->
+  <strong>This text is important!</strong><br>
+
+  <!-- sub tag - Defines subscripted text -->
+  <p>H<sub>2</sub>O</p><br>
+
+  <!-- sup tag - Defines superscripted text  -->
+  <p>a<sup>2</sup> + b<sup>2</sup></p><br>
+
+  <!-- summery tag - Defines a visible heading for a <details> element  -->
+  <details>
+    <summary>Epcot Center</summary>
+    <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </details><br><br>
+  
+  <!-- svg tag -  Defines a container for SVG graphics -->
+  <svg width="100" height="100">
+    <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+  </svg><br><br>
+ 
+  <!-- template tag - Defines a container for content that should be hidden when the page loads -->
+  <button onclick="showContent()">Show hidden content</button>
+
+  <template>
+    <h2>Flower</h2>
+    <img src="https://www.w3schools.com/tags/img_white_flower.jpg" width="214" height="204">
+  </template>
+  <script>
+  function showContent() {
+    var temp = document.getElementsByTagName("template")[0];
+    var clon = temp.content.cloneNode(true);
+    document.body.appendChild(clon);
+  }
+  </script><br><br>
+
+  <!-- textarea tag - Defines a multiline input control (text area)-->
+  <textarea name="comment" id="user_comment" cols="100" rows="10" placeholder="comment..."></textarea><br><br>
+
+  <!-- table tag -  Defines a table-->
+  <!-- tfooter tag -  Groups the footer content in a table-->
+  <!-- tobdy tag -  Groups the body content in a table-->
+  <!-- thead tag -  Groups the header content in a table-->
+  <!-- th tag -  Defines a header cell in a table-->
+  <!-- tr tag - Defines a row in a table-->
+  <!-- td tag- Defines a cell in a table-->
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Month</th>
+        <th>Savings</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>January</td>
+        <td>$100</td>
+      </tr>
+      <tr>
+        <td>February</td>
+        <td>$80</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>Sum</td>
+        <td>$180</td>
+      </tr>
+    </tfoot>
+  </table><br><br>
+
+  <!-- time tag -  Defines a specific time (or datetime)-->
+  <p>Open from <time>10:00</time> to <time>21:00</time> every weekday.</p><br>
+
+  <!-- track tag - Defines text tracks for media elements (<video> and <audio>) -->
+  <video width="320" height="240" controls>
+    <source src="forrest_gump.mp4" type="video/mp4">
+    <source src="forrest_gump.ogg" type="video/ogg">
+    <track src="fgsubtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+    <track src="fgsubtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian">
+  </video><br><br>
+
+  <!-- tt tag - Not supported in HTML5. Use CSS instead. -->
+  <tt></tt>
+
+  <!-- u tag - Defines some text that is unarticulated and styled differently from normal text -->
+  <u>underline</u><br>
+
+  <!-- var tag -  Defines a variable -->
+  <p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p><br><br>
+
+  <!-- video tag -  Defines embedded video content -->
+  <video width="320" height="240" controls>
+    <source src="movie.mp4" type="video/mp4">
+    <source src="movie.ogg" type="video/ogg">
+    Your browser does not support the video tag.
+  </video><br><br>
+  
+  <!-- wbr tag -  Defines a possible line-break -->
+  <p>To learn AJAX, you must be familiar with the XML<wbr>Http<wbr>Request Object.</p> <br>
+
+</body>
+
+</html>

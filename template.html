@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template</title>
+  </head>
+  <body>
+    <template>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nihil
+        aperiam perspiciatis id a? Libero sit architecto qui, ea, praesentium
+        culpa necessitatibus quas beatae placeat exercitationem eligendi
+        perspiciatis voluptas cupiditate.
+      </p>
+    </template>
+    <button onclick="show()">Get Template Content</button>
+    <script>
+      function show() {
+        let temp = document.getElementsByTagName("template")[0];
+        let clone = temp.content.cloneNode(true);
+        document.body.append(clone);
+      }
+    </script>
+  </body>
+</html>

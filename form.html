@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Form -1</legend>
+      <form action="url">
+        <label for="name">Name :</label><br />
+        <input type="text" placeholder="Your Name.." /><br />
+        <label for="age">Age :</label><br />
+        <input type="text" id="age" placeholder="Your Age" /><br /><br />
+        <button type="submit">Submit</button>
+      </form>
+    </fieldset>
+    <fieldset>
+      <legend>Form-2</legend>
+      <form action="url">
+        <input type="radio" id="male" name="gender" />
+        <label for="male">Male</label><br />
+        <input type="radio" id="female" name="gender" />
+        <label for="female">Female</label><br />
+        <input type="radio" id="other" name="gender" />
+        <label for="other">Other</label><br /><br />
+        <label for="skill">Skills:</label><br />
+        <input type="checkbox" id="draw" />
+        <label for="draw">Drawing</label><br />
+        <input type="checkbox" id="sports" />
+        <label for="sports">Sports</label><br />
+        <input type="checkbox" id="reading" />
+        <label for="reading">Reading</label><br />
+        <br />
+        <label for="about">About:</label><br /><br />
+        <textarea
+          name="About"
+          id="about"
+          cols="50"
+          rows="5"
+          placeholder="About Yourself"
+        ></textarea
+        ><br /><br />
+        <button type="submit">Submit</button>
+      </form>
+    </fieldset>
+  </body>
+</html>
